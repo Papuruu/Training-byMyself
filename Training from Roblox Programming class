@@ -1,0 +1,64 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+// Demonstration of various C++ features
+
+int main()
+{
+    // Output
+    cout << "Hello World" << endl;
+
+    // Integer
+    int myInt = 10;
+    cout << myInt << endl;
+
+    // String
+    string myString = "Hello World";
+    cout << myString << endl;
+
+    // Bool
+    bool myBool = true;
+    cout << myBool << endl;
+
+    // Character
+    char myChar = 'A';
+    cout << myChar << endl;
+
+    // Double
+    double myDouble = 1.5;
+    cout << myDouble << endl;
+
+    // Constant
+    const int myConst = 1;
+    cout << myConst << endl;
+
+    // Math
+    int myMath = 5 + 2;
+    cout << myMath << endl;
+
+    // if else
+    int myVariable = 5;
+    if (myVariable > 2)
+    {
+        cout << "Greater than 2" << endl;
+    }
+    else
+    {
+        cout << "Less than or equal to 2" << endl;
+    }
+
+    // OR
+    if (true) {
+        cout << "Condition met" << endl;
+    }
+
+    return 0;
+}
+
+// Else
+if (false) {
+    cout << "Condition not met" << endl;
+}
+
+// That's all for now!
